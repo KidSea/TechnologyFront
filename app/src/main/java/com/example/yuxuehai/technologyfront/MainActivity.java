@@ -9,5 +9,23 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        initActionBar();
+        initView();
+        initMenu();
+    }
+
+    private void initMenu() {
+
+
+    }
+
+    private void initView() {
+
+    }
+
+
+    private void initActionBar() {
+
     }
 }
